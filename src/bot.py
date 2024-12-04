@@ -49,6 +49,8 @@ async def costs(ctx: lightbulb.Context):
             except KeyError:
                 await ctx.respond("Unexpected data format received from Nitrado API.")
 
+# Add Server Controls!
+
 # Run the bot
 if __name__ == "__main__":
     bot.run()
